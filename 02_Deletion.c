@@ -16,7 +16,7 @@ int indDeletion(int arr[], int size, int index){
 
 int main(){
     int arr[100]= {22, 32, 84, 19, 94, 77};
-    int size = 6, element = 34, index = 3;
+    int size = 6, index = 3;
     display(arr, size);
     indDeletion(arr, size, index);
     size -= 1;
